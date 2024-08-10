@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Hanken Grotesk;
+}
+
+.container {
+    height: 430px;
+    width: 600px;
+    margin: 8%;
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px hsla(222, 100%, 96%, 0.867);
+    border: solid 0.5px rgba(255, 255, 255, 0.564);
+
+}
+
+.left-side {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 300px;
+    height: 100%;
+    text-align: center;
+    border-radius: 30px;
+
+}
+
+.right-side {
+    width: 300px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 30px;
+
+}
+
+.circle {
+
+    width: 180px;
+    margin: auto;
+    height: 180px;
+    border-radius: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    color: #ffffffe6;
+    margin-bottom: 30px;
+
+}
+
+.circle p {
+    color: #ffffff72;
+}
+
+h2 {
+    color: #ffffffe6;
+    font-size: 30px;
+    margin-bottom: -5px;
+}
+
+.left-side h3,
+p {
+    color: #ffffffab;
+
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: -20px;
+}
+
+#summary {
+    margin-top: -7px;
+    /* color: aqua; */
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.095);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.095);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 37%, 0.095);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.visual {
+    background-color: hsl(234, 85%, 45%, 0.095);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    /* width: 90%; */
+    height: 50px;
+    color: #ffffffe6;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%))
+}
+
+.svg {
+    display: inline;
+    margin: auto;
+    margin-right: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* strong {
+    /* margin-bottom: 30px; */
+/* display: inline;
+}*/
